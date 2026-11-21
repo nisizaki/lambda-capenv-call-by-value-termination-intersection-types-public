@@ -1,0 +1,23 @@
+chapter LambdaCapEnvCBV
+
+session LambdaCapEnvCBV = HOL +
+  description "
+    Call-by-value termination of lambda_capenv (no id) and its characterization by
+    intersection types.
+  "
+  options [document = false, quick_and_dirty = false]
+  theories
+    ARS
+    Cap_Syntax
+    Sigma
+    Sig_Confluence
+    Cap_Reduction
+    Uniform
+    Typing
+    Completeness
+    Soundness
+    Main_Results
+    Capture
+    Examples
+    Lambda
+    Pure_Capture
